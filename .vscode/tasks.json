@@ -4,6 +4,22 @@
     "version": "2.0.0",
     "tasks": [
       {
+        "label": "Debug SketchUp 2017",
+        "type": "shell",
+        "command": "open -a '/Applications/SketchUp 2017/SketchUp.app' --args -rdebug 'ide port=6123'",
+        "windows": {
+          "command": "&'C:/Program Files/SketchUp/SketchUp 2017/SketchUp.exe' -rdebug 'ide port=6123'"
+        }
+      },
+      {
+        "label": "Debug SketchUp 2024",
+        "type": "shell",
+        "command": "open -a '/Applications/SketchUp 2024/SketchUp.app' --args -rdebug 'ide port=6123'",
+        "windows": {
+          "command": "&'C:/Program Files/SketchUp/SketchUp 2024/SketchUp.exe' -rdebug 'ide port=6123'"
+        }
+      },
+      {
         "label": "Launch SketchUp in Ruby debug mode",
         "type": "shell",
         "command": "skippy",
@@ -32,21 +48,5 @@
         ],
         "default": "2022"
       },
-      {
-        "label": "Debug SketchUp 2017",
-        "type": "shell",
-        "command": "open -a '/Applications/SketchUp 2017/SketchUp.app' --args -rdebug 'ide port=7000'",
-        "windows": {
-          "command": "&'C:/Program Files/SketchUp/SketchUp 2017/SketchUp.exe' -rdebug 'ide port=7000'"
-        }
-      },
-      {
-        "label": "Debug SketchUp 2024",
-        "type": "shell",
-        "command": "open -a '/Applications/SketchUp 2024/SketchUp.app' --args -rdebug 'ide port=7000'",
-        "windows": {
-          "command": "&'C:/Program Files/SketchUp/SketchUp 2024/SketchUp.exe' -rdebug 'ide port=7000'"
-        }
-      }
     ]
   }
