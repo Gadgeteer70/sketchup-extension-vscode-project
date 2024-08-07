@@ -1,5 +1,5 @@
 {
   "solargraph.diagnostics": true,
-  "ruby.interpreter.commandPath": "C:/Ruby33-x64/bim",
-  "solargraph.commandPath": "C:/Ruby33-x64/bin",
+  "ruby.interpreter.commandPath": "C:/Ruby32-x64/bim",
+  "solargraph.commandPath": "C:/Ruby32-x64/bin",
 }
