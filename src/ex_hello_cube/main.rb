@@ -20,9 +20,7 @@ module Examples
         Geom::Point3d.new(1.m, 1.m, 0),
         Geom::Point3d.new(0,   1.m, 0)
       ]
-      points.each do { |pnt|
-        puts "index " + pnt.index + " = " pnt.to_s
-      }
+
       face = entities.add_face(points)
       face.pushpull(-1.m)
       model.commit_operation

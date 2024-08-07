@@ -5,20 +5,20 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Listen for rdebug-ide",
+      "name": "(rdbg) Listen for rdebug-ide",
       "type": "rdbg",
       "request": "attach",
       "debugPort": "6123"
     },
 
-    // {
-    //   "name": "Listen for rdebug-ide",
-    //   "type": "Ruby",
-    //   "request": "attach",
-    //   "cwd": "${workspaceRoot}",
-    //   "remoteHost": "127.0.0.1",
-    //   "remotePort": "7000",
-    //   "remoteWorkspaceRoot": "${workspaceRoot}"
-    // }
+    {
+      "name": "(Ruby) Listen for rdebug-ide",
+      "type": "Ruby",
+      "request": "attach",
+      "cwd": "${workspaceRoot}",
+      "remoteHost": "127.0.0.1",
+      "remotePort": "7000",
+      "remoteWorkspaceRoot": "${workspaceRoot}"
+    }
   ]
 }
