@@ -8,7 +8,7 @@
       "name": "(rdbg) Listen for rdebug-ide",
       "type": "rdbg",
       "request": "attach",
-      "debugPort": "6123"
+      "debugPort": "localhost:6123"
     },
 
     {
@@ -17,7 +17,7 @@
       "request": "attach",
       "cwd": "${workspaceRoot}",
       "remoteHost": "127.0.0.1",
-      "remotePort": "7000",
+      "remotePort": "6123",
       "remoteWorkspaceRoot": "${workspaceRoot}"
     }
   ]
