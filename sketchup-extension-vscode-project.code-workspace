@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../../../../ProgramData/SketchUp/SketchUp 2017/SketchUp/Plugins",
+      "name": "2017 Plugins"
+		},
+		{
+			"path": "../../../../../../ProgramData/SketchUp/SketchUp 2022/SketchUp/Plugins",
+      "name": "2022 Plugins"
+		},
+    {
+			"path": "../../../../../../ProgramData/SketchUp/SketchUp 2024/SketchUp/Plugins",
+      "name": "2024 Plugins"
+		}
+
+	],
+	"settings": {
+		"solargraph.diagnostics": true
+	}
+}
