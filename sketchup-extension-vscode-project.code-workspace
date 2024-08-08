@@ -18,6 +18,13 @@
 
 	],
 	"settings": {
-		"solargraph.diagnostics": true
+		"solargraph.diagnostics": true,
+    "solargraph.autoformat": true,
+    "solargraph.formatting": true,
+    "debug.allowBreakpointsEverywhere": true,
+		"debug.confirmOnExit": "always",
+		"debug.toolBarLocation": "docked",
+		"terminal.integrated.confirmOnExit": "hasChildProcesses",
+    "terminal.integrated.confirmOnKill": "always"
 	}
 }
