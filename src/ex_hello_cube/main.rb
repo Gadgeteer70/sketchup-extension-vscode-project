@@ -24,7 +24,6 @@ module Examples
       face = entities.add_face(points)
       face.pushpull(-1.m)
       model.commit_operation
-      sel = model.selection
     end
 
     unless file_loaded?(__FILE__)

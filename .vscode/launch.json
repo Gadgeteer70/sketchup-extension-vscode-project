@@ -8,7 +8,7 @@
       "name": "(rdbg) Listen for rdebug-ide",
       "type": "rdbg",
       "request": "attach",
-      "debugPort": "6123"
+      "debugPort": "localhost:6123"
     },
 
     {
