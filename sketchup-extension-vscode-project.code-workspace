@@ -19,7 +19,6 @@
 	],
 	"settings": {
 		"solargraph.diagnostics": true,
-    "solargraph.autoformat": true,
     "solargraph.formatting": true,
     "debug.allowBreakpointsEverywhere": true,
 		"debug.confirmOnExit": "always",
