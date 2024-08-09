@@ -8,7 +8,7 @@
       "name": "(rdbg) Listen for rdebug-ide",
       "type": "rdbg",
       "request": "attach",
-      "debugPort": "localhost:6123"
+      "debugPort": "6123"
     },
 
     {
@@ -18,14 +18,14 @@
       "debugServer": 6123
     },
 
-    // {
-    //   "name": "(Ruby) Listen for rdebug-ide",
-    //   "type": ,
-    //   "request": "attach",
-    //   "cwd": "${workspaceRoot}",
-    //   "remoteHost": "127.0.0.1",
-    //   "remotePort": "6123",
-    //   "remoteWorkspaceRoot": "${workspaceRoot}"
-    // },
+    {
+      "name": "(Ruby) Listen for rdebug-ide",
+      "type": "Ruby",
+      "request": "attach",
+      "cwd": "${workspaceRoot}",
+      "remoteHost": "127.0.0.1",
+      "remotePort": "6123",
+      "remoteWorkspaceRoot": "${workspaceRoot}"
+    },
   ]
 }
