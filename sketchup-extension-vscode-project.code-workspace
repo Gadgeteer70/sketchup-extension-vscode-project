@@ -25,6 +25,7 @@
 		"debug.confirmOnExit": "always",
 		"debug.toolBarLocation": "docked",
 		"terminal.integrated.confirmOnExit": "hasChildProcesses",
-    "terminal.integrated.confirmOnKill": "always"
+    "terminal.integrated.confirmOnKill": "always",
+
 	}
 }

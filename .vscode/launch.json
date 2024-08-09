@@ -12,13 +12,20 @@
     },
 
     {
-      "name": "(Ruby) Listen for rdebug-ide",
-      "type": "Ruby",
+      "type": "ruby_lsp",
       "request": "attach",
-      "cwd": "${workspaceRoot}",
-      "remoteHost": "127.0.0.1",
-      "remotePort": "6123",
-      "remoteWorkspaceRoot": "${workspaceRoot}"
-    }
+      "name": "(Ruby LSP) Listen for rdebug-ide",
+      "debugServer": 6123
+    },
+
+    // {
+    //   "name": "(Ruby) Listen for rdebug-ide",
+    //   "type": ,
+    //   "request": "attach",
+    //   "cwd": "${workspaceRoot}",
+    //   "remoteHost": "127.0.0.1",
+    //   "remotePort": "6123",
+    //   "remoteWorkspaceRoot": "${workspaceRoot}"
+    // },
   ]
 }

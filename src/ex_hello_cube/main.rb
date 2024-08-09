@@ -2,11 +2,13 @@
 # Licensed under the MIT license
 
 require 'sketchup.rb'
+require 'debug'
 
 module Examples
   module HelloCube
 
     def self.create_cube
+      debug
       model = Sketchup.active_model
       puts "var model set"
       model.start_operation('Create Cube', true)
